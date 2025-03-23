@@ -123,6 +123,38 @@
       "sellerName": "neha1",
       "shopName": "fiction world",
       "user": "seller"
+    },
+    {
+      "id": "ef4f",
+      "name": "tanvi negi",
+      "email": "tanvinegi@gmail.com",
+      "sellerName": "",
+      "shopName": "",
+      "user": "buyer"
+    },
+    {
+      "id": "1472",
+      "name": "Tanvi",
+      "email": "tanvinegi@gmail.com",
+      "sellerName": "",
+      "shopName": "",
+      "user": "buyer"
+    },
+    {
+      "id": "6605",
+      "name": "Tanvi",
+      "email": "tanvinegi@gmail.com",
+      "sellerName": "Tanvi",
+      "shopName": "Tanvi Shop",
+      "user": "seller"
+    },
+    {
+      "id": "1842",
+      "name": "Tanvi",
+      "email": "tanvinegi23@gmail.com",
+      "sellerName": "Tanvi",
+      "shopName": "Tanvi Shop",
+      "user": "seller"
     }
   ],
   "dashboardStats": [

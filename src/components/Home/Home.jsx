@@ -9,9 +9,12 @@ import { fetchBooks } from "../BookListing/BookApi";
 import { useTranslation } from "react-i18next";
 import Footer from "../Footer/Footer";
 import { SiBookstack } from "react-icons/si";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const role = JSON.parse(localStorage.user || "{}")?.user || "";
 
   const [searchQuery] = useState(""); // store search query in parent state
 
@@ -32,7 +35,15 @@ const Home = () => {
     return <div>Error: {error}</div>;
   }
 
-  console.log(books, "books");
+  useEffect(() => {
+    if (role === "buyer") {
+      navigate("/buyer-dashboard");
+    } else if (role === "seller") {
+      navigate("/seller-dashboard");
+    } else {
+      navigate("/");
+    }
+  }, [role]);
 
   return (
     <div className="holder">
@@ -49,7 +60,9 @@ const Home = () => {
           {/* <SearchForm /> */}
         </div>
       </header>
-      <BookListing books={books} />
+      <div className="h-full">
+        <BookListing books={books} />
+      </div>
       <div>
         <footer className="fixed bottom-0 left-0 right-0 h-[70px] bg-white flex items-center justify-between px-10 shadow-purple-300">
           <div className="text-gray-700 font-semibold flex justify-center gap-2">
@@ -58,11 +71,6 @@ const Home = () => {
             </span>
             <span>{t("homePageHeader")}</span>
           </div>
-          {/* <ul className="flex space-x-4 sm:space-x-6 text-black gap-3 font-semibold ">
-          <li className=" cursor-pointer hover:text-purple-400 ">Google</li>
-          <li className=" cursor-pointer hover:text-purple-400 ">Facebook</li>
-          <li className=" cursor-pointer hover:text-purple-400 ">YouTube</li>
-        </ul> */}
         </footer>
       </div>
     </div>
