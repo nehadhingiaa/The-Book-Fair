@@ -48,6 +48,7 @@ const Login = ({ closeModal }) => {
     validationSchema: validationSchema,
     onSubmit: async (values) => {
       if (isLogin) {
+        debugger
         try {
           await dispatch(loginUser(values.email)).unwrap(); // Unwrap to handle rejections
         } catch (error) {

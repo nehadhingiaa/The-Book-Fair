@@ -2,6 +2,15 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const BASE_URL = "http://localhost:8000/books";
+const BASE_URL1 = "http://localhost:8000/homeBooks";
+
+// fetchBooksForHome
+
+export const fetchBooksForHome = createAsyncThunk("books/fetchBooksForHome", async () => {
+  const response = await axios.get(BASE_URL1);
+  return response.data
+});
+
 
 // 🔹 Fetch all books
 export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {

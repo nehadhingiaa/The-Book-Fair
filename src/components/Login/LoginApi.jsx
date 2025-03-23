@@ -14,6 +14,7 @@ export const registerUser = createAsyncThunk("auth/registerUser", async (userDat
 
 // Login User (GET Request with Email Check)
 export const loginUser = createAsyncThunk("auth/loginUser", async (email, { rejectWithValue }) => {
+
     try {
         const response = await axios.get(`${API_URL}?email=${email}`);
         if (response.data.length === 0) {

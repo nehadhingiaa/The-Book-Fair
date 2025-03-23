@@ -123,6 +123,14 @@
       "sellerName": "neha1",
       "shopName": "fiction world",
       "user": "seller"
+    },
+    {
+      "id": "276b",
+      "name": "Sunny Kumar",
+      "email": "sunnykumar@gmail.com",
+      "sellerName": "Sunny kumar",
+      "shopName": "Books World",
+      "user": "seller"
     }
   ],
   "dashboardStats": [
@@ -163,7 +171,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     }
   ],
-  "books": [
+  "homeBooks": [
     {
       "id": "4",
       "title": "The Shining",
@@ -253,6 +261,185 @@
       "quantity": 1,
       "price": 900,
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ4OYKP8ZEXC_ATuW770bSrwyrFIYn6Tq8SiruQ1PBmw044xMf-AC28WaF-hohMTDE0pqjOpQSAHp5it0KPNELCZiP9wHHHyhDbH4z8xFUS"
+    },
+    {
+      "id": "15",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": "An epic about Odysseus’s journey home after the Trojan War.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://99bookstores.com/cdn/shop/files/20391a21-7338-4c78-9dee-2e09e4d6c7ef.jpg?v=1699770152&width=1920"
+    },
+    {
+      "id": "16",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": "A gothic horror novel about the infamous Count Dracula.",
+      "stockCount": 34,
+      "quantity": 1,
+      "price": 450,
+      "image": "https://www.motilalbanarsidass.com/cdn/shop/files/Be_Strong_Fear_Not_By_Swami_Tathagatananda.png?v=1734956422&width=960"
+    },
+    {
+      "id": "17",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "A novel about the creation of a monster and its consequences.",
+      "stockCount": 2,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://images.booksense.com/images/235/888/9780062888235.jpg"
+    },
+    {
+      "id": "18",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "A novel exploring themes of vanity, youth, and morality.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 760,
+      "image": "https://images.booksense.com/images/068/338/9780062338068.jpg"
+    },
+    {
+      "id": "21",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "description": "A philosophical novel about faith, doubt, and reason.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 987,
+      "image": "https://images.booksense.com/images/068/338/9780062338068.jpg"
+    },
+    {
+      "id": "23",
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "description": "A children’s novel about a magical garden and its transformative powers.",
+      "stockCount": 3,
+      "quantity": 1,
+      "price": 896,
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCF0Ejpf610cisN6iLtE6cIOPUD-N-RT-1zmBA8vsLxFb_PqR3Vbe7L2z5BeruL-h5z1zF3zpfCAX0Eb_L1xFRKLrqaOeRIxC-I8QK5FK6orb0rAVPXo5nLw"
+    },
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A novel set in the Roaring Twenties.",
+      "stockCount": 5,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS1ekMHCUO_Tgx3xh2NJ9xRQYphWykv9V3FrlJW76x5eLl-Q0P7rf4LrjYv5pfQJi03lvvyZ3w8hBI87Ql_iGxqdP0UzGIX"
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel set in a totalitarian society.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://covers.openlibrary.org/b/id/14846156-L.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A novel about a dystopian future with advanced technology.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 500,
+      "image": "https://m.media-amazon.com/images/I/81qusRbi0TS.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": "4",
+      "title": "The Shining",
+      "author": "Stephen King",
+      "description": "A horror novel about a family trapped in a haunted hotel.",
+      "stockCount": 29,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://www.madrasshoppe.com/103359-large_default/the-shining-stephen-king.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A novel about a dystopian future with advanced technology.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://covers.openlibrary.org/b/id/14846156-L.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "description": "A novel about a captain’s obsession with hunting a white whale.",
+      "stockCount": 27,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://m.media-amazon.com/images/I/71B4h-dSVzL._SY466_.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A novel about manners, marriage, and family dynamics.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 300,
+      "image": "https://images.meesho.com/images/products/83103192/i37kq_1200.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A story about a teenage boy’s struggles with life and society.",
+      "stockCount": 10,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://images.meesho.com/images/products/147567498/2lvuz_1200.jpg"
+    },
+    {
+      "id": "10",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "A fantasy novel about the journey of Bilbo Baggins.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://images.meesho.com/images/products/381615230/cdlso_1200.jpg"
+    },
+    {
+      "id": "12",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "A novel about Russian society during the Napoleonic Wars.",
+      "stockCount": 10,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRd1cILBmHOVh-ZXsh-P68fkSR3ldETlKyUWcF-MzRlhrGwWRAvSYRZxquy-siTXTZlQzd8HbItEeTOIaXYUIM7PUU07fVgGsMy2ErLE3wi"
+    },
+    {
+      "id": "13",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "description": "A psychological novel exploring guilt and redemption.",
+      "stockCount": 20,
+      "quantity": 1,
+      "price": 200,
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRohlWLpQwEg4zIfn4TyudJQfG5dDIgZyC_2Arb7u1su6H-DKOOYhGS-yMgQ1j8Nq2yi-1gKMuaJ4r92CwIg4DiW-mNdpuGO4J7FcSsXnCR5hyJQom4HjuECg"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 900,
+      "stockCount": 6,
+      "id": "14"
     },
     {
       "id": "15",

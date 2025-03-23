@@ -9,6 +9,7 @@ import buyerCartSliceReducer from "../pages/Buyer/BuyerCart/Slices/BuyerCartSlic
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import PlaceOrderReducer from "../pages/Buyer/BuyerCart/Slices/PlaceOrdersSlice"
+import homeBooksReducer from "../components/BookListing/BookSliceForHome"
 
 const storedUser = localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : null;
 
@@ -23,6 +24,7 @@ const persistConfig = {
 
 export const store =configureStore({
     reducer:{
+        homeBooks:homeBooksReducer,
         user:authReducer,
         books:bookListingReducer,
         shops:shopReducer,

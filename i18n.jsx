@@ -18,7 +18,7 @@ i18n.use(LanguageDetector).use(initReactI18next).use(Backend).init({
             translation:{
                 user:"buyer",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quod quis at maxime animi pariatur repellat numquam cupiditate ullam saepe!",
-                homeScreenHeader:"find your book of choice",
+                homeScreenHeader:"Find your book of choice",
                 homePageHeader:"Book Fair",
                 login:"Login",
                 signUp:"signup",

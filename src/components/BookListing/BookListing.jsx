@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchBooksForHome } from './BookApi';
 
 // import booklogo from '../../assets/images/booklogo.jpg'
 
 
 
 const BookListing = ({books}) => {
+  const dispatch=useDispatch();
+  const {homeBooks}=useSelector((books)=>books?.homeBooks)
+  
+  useEffect(()=>{
+    dispatch(fetchBooksForHome())
+  },[dispatch])
+  
 
 
   // If there are no books, show a message
@@ -16,7 +26,7 @@ const BookListing = ({books}) => {
     <div className="book-list px-4 sm:px-10 md:px-20 py-10 bg-purple-100">
   
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-    {books.map((book) => (
+    {homeBooks.map((book) => (
       <div key={book.id} className="book-card cols-span-1 h-auto bg-purple-50 border-2 border-purple-300 rounded shadow-xl p-5">
         <div className='flex flex-col sm:flex-row gap-4'>
           <div className="">
